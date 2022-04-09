@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/771efb2681.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
-    <!----- Botom whatsapp ----->
-    <a href="" class="btn-wsp" target="_blank">
-        <i class="icon_whatsapp">w</i>
-    </a><!-----(FIN) Botom whatsapp ----->
-
     <!----- Cabecera ----->
-    <header class="header"></header><!----- (FIN) Cabecera ----->
+    <header class="header">
+        <a href=""><i class="fa-brands fa-instagram" ></i></a>
+        <a href=""><i class="fa-solid fa-envelope"></i></a>
+        <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+    </header><!----- (FIN) Cabecera ----->
 
     <!----- Barra de navegacion ----->
     <nav class="navbar">
@@ -23,9 +23,28 @@
             <li id="borde_abajo"><a href="">Sobre mí</a></li>
             <li><a href="#contacto" id="botom_contacto">Contacto</a></li>
         </ul>
+
+        <div class="icono-menu">
+            <i class="fa-solid fa-bars" id="icono-menu"></i>
+        </div>
+    
+        <div class="cont-menu active" id="menu">
+            <ul>
+                <li id="borde_abajo"><a href="#pagina_portafolio">Portafolio</a></li>
+                <li id="borde_abajo"><a href="">Sobre mí</a></li>
+                <li><a href="#contacto" id="botom_contacto">Contacto</a></li>
+            </ul>
+        </div>
+
+        
+
     </nav><!-----(FIN) Barra de navegacion ----->
 
     <!----- Contendor principal ----->
+    <!----- Botom whatsapp ----->
+    <a href="" class="btn-wsp" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a><!-----(FIN) Botom whatsapp ----->
     <section class="section_principal">
         <!----- Caja principal ----->
         <div class="caja">
@@ -93,11 +112,15 @@
             </form>
             <div class="redes">
                 <p>Redes sociales</p>
-
+                <div class="iconos_redes">
+                    <a href=""><i class="fa-brands fa-instagram" ></i></a>
+                    <a href=""><i class="fa-solid fa-envelope"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+                </div>
             </div>
         </div>
     </section><!-----(FIN) Section Contacto ----->
 
-    
+    <script src="app.js"></script>
 </body>
 </html>
