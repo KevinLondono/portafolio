@@ -1,0 +1,502 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* -----Botom whatsapp----- */
+.btn-wsp{
+  position: fixed;
+  width: 65px;
+  height: 65px;
+  line-height: 55px;
+  bottom: 1%;
+  right: 2%;
+  background-color: #000000;
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 2.8em;
+  box-shadow: 0px 1px 10px rgba(255, 255, 255, 0.3);
+  z-index: 9999;
+}
+
+.fa-brands{
+  padding: 10px;
+}
+
+.btn-wsp:hover{
+  text-decoration: none;
+  color:#000000;
+  background-color: white;
+
+}
+/* -----(FIN) Botom whatsapp----- */
+
+/* -----Cabecera----- */
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  display: flex;
+  justify-content: start;
+}
+
+.header i{
+  font-size: 2em;
+  color: white;
+  padding: 15px;
+}
+/* -----(FIN) Cabecera----- */
+
+/* -----Barra de navegacion----- */
+.navbar {
+  background: linear-gradient(#2727d5, #88d0cf);
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.cont-menu, .icono-menu{
+  display: none;
+}
+
+.navbar ul {
+  display: flex;
+  margin-right: 10px;
+  height: 80px;
+}
+
+.navbar li {
+  list-style: none;
+  margin: 15px;
+  padding: 10px;
+  font-size: 1.4em;
+}
+
+.navbar #borde_abajo:hover {
+  border-bottom: solid black 1px;
+}
+
+.navbar a:hover {
+  color: black;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar #botom_contacto {
+  background-color: black;
+  width: 70px;
+  padding: 10px;
+  transition: all 0.5s;
+}
+
+.navbar #botom_contacto:hover {
+  background-color: white;
+  color: black;
+}
+/* -----(FIN) Barra de navegacion----- */
+
+/* -----Contenedor principal----- */
+.section_principal {
+  background: linear-gradient(#015eea, #00c0fa);
+  width: 100%;
+  height: 530px;
+  position: relative;
+}
+/* -----(FIN) Contenedor principal----- */
+
+/* -----Estilos de la caja----- */
+.caja {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  position: absolute;
+  width: 750px;
+  height: 375px;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+.caja #portafolio {
+  font-size: 9em;
+}
+
+.caja #web {
+  font-size: 9em;
+  margin-left: 430px;
+}
+
+.caja #by {
+  font-size: 2em;
+  margin-left: 10px;
+  color: black;
+}
+/* -----(FIN) Estilos de la caja----- */
+
+/* ----- Section portafolio----- */
+.section_portafolio{
+    width: 100%;
+    height: 680px;
+    background: linear-gradient(#00c0fa,#7024fd);
+}
+
+.section_portafolio > p{
+    background-color: black;
+    color: white;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    letter-spacing: .4em;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+
+.contenedor_portafolio img{
+    width: 294px;
+    height: 180px;
+}
+
+.contenedor_portafolio p{
+    display: flex;
+    justify-content: center;
+    background-color: #fffffffb;
+    font-size: 2em;
+    margin-top: 8px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.contenedor_portafolio p:hover{
+    background-color: black;
+    border: solid 1px white;
+}
+
+.contenedor_portafolio a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.contenedor_portafolio a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#caja_widget{
+    border: outset 3px rgba(48, 95, 248, 0.993) ;
+    background-color: rgb(255, 255, 255);
+}
+
+.widget1{
+    grid-area: widget1;
+    width: 300px;
+    height: 250px;
+    background-color: white;
+}
+
+.widget2{
+    grid-area: widget2;
+    width: 300px;
+    height: 250px;
+    background-color: white;
+}
+
+.widget3{
+    grid-area: widget3;
+    width: 300px;
+    height: 250px;
+    background-color: white;
+}
+
+.widget4{
+    grid-area: widget4;
+    width: 300px;
+    height: 250px;
+    background-color: white;
+}
+
+.widget5{
+    grid-area: widget5;
+    width: 300px;
+    height: 250px;
+    background-color: white;
+}
+
+.widget6{
+    grid-area: widget6;
+    width: 300px;
+    height: 250px;
+    background-color: white;
+}
+/* -----Grid----- */
+.contenedor_portafolio{
+  display: flex;
+  justify-content: center;
+    display: grid;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template: 
+    "widget1 widget2 widget3" 250px
+    "widget4 widget5 widget6"  250px / 
+    300px 300px 300px
+    ;
+}
+
+/* -----(FIN)Section portafolio----- */
+
+
+/* -----Section contacto----- */
+.section_contacto{
+  width: 100%;
+  height: 680px;
+  background: linear-gradient(#7024fd,#88d0cf);
+}
+
+.section_contacto > p{
+  background-color: black;
+  color: white;
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+  letter-spacing: .4em;
+  padding: 5px;
+  margin-bottom: 50px;
+}
+
+.contenedor_formulario{
+  display: flex;
+  justify-content: space-around;
+  font-size: 2em;
+}
+
+.section_contacto form{
+  background-color: rgba(0, 0, 0, 0.363);
+  border: outset #ffffff;
+  padding: 30px;
+  
+}
+
+.section_contacto form> p{
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.contenedor_formulario input{
+  height: 30px;
+}
+
+.contenedor_formulario #email{
+  margin-left: 16px;
+}
+
+.contenedor_formulario #celular{
+  margin-left: 10px;
+}
+
+.contenedor_formulario .botom_enviar{
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  font-size: .6em;
+  width: 75px;
+  height: 35px;
+  margin-top: 20px;
+  margin-left: 95px;
+}
+
+.redes{
+  font-size: 1.4em;
+  border: solid 1px;
+  background-color: rgba(0, 0, 0, 0.363);
+  border: outset #ffffff;
+  padding: 30px;
+  width: 330px;
+}
+
+.iconos_redes i{
+  color: white;
+}
+
+/* -----(FIN)Section contacto----- */
+
+/* -----Diseño adaptable movil----- */
+@media (max-width: 432px) {
+
+  .btn-wsp{
+    font-size: 2.5em;
+  }
+
+  .navbar> ul{
+    display: none;
+  }
+
+  .icono-menu{
+    display: block;
+  }
+
+  .cont-menu{
+    display: block;
+  }
+
+  /* Estilos para el ícono del Menú */
+.icono-menu{
+    margin: 40px 20px;
+    position: relative;
+    z-index: 100;
+}
+
+.icono-menu i{
+    vertical-align: top;
+    width: 40px;
+    cursor: pointer;
+    font-size: 2.5em;
+}
+
+.cont-menu #botom_contacto {
+  background-color: white;
+  color: #000000;
+}
+
+/* Estilos para el contenedor del Menú */
+.cont-menu{
+  /* background: linear-gradient(#2727d5, #88d0cfe5); */
+  background-color: #000000;
+    box-shadow: 1px 0px 5px 1px #015eea;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    transition: all .5s ease;
+    z-index: 10;
+}
+
+/* Estilos por agregar en JavaScript */
+.active{
+    transform: translate(-600px);
+}
+
+/* Estilos para el listado del Menú */
+.cont-menu ul{
+  padding: 5px;
+    list-style: none;
+    display: block;
+}
+
+.cont-menu ul li{
+    color: white;
+    font-size: 2.2em;
+    text-decoration: none;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+
+.cont-menu ul li:hover{
+    background-color: rgb(228,228,228);
+    color: rgb(42,42,42);
+}
+
+  
+
+  .btn-wsp{
+    top: 68%;
+    right: 10px;
+  }  
+
+  .navbar ul {
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+
+  .navbar li {
+    font-size: 1.3em;
+    padding: 0px;
+  }
+
+  .section_principal{
+      height: 450px;
+  }
+
+  /* -----Estilos de la caja----- */
+  .caja {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    margin: 0;
+    margin-top: 20px;
+  }
+  .caja #portafolio {
+    font-size: 5.3em;
+  }
+
+  .caja #web {
+    font-size: 5.3em;
+    margin-left: 200px;
+  }
+
+  .caja #by {
+    font-size: 1.5em;
+    margin-left: 10px;
+    color: black;
+  }
+
+  .section_portafolio > p{
+    font-size: 3em;
+    letter-spacing: .2em;
+    margin-bottom: 10px;
+}
+  /* -----Grid----- */
+
+  .contenedor_portafolio img{
+    width: 174px;
+    height: 100px;
+}
+
+  #caja_widget{
+    width: 180px;
+    height: 180px;
+  }
+
+  .contenedor_portafolio p{
+    display: flex;
+    justify-content: center; 
+    font-size: 1.3em;
+    margin-top: 5px;
+    margin-left: 35px;
+    margin-right: 35px;
+    border-radius: 5px;
+}
+
+  .contenedor_portafolio{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+      display: grid;
+      grid-template:
+        "widget1 widget2" 
+        "widget3 widget4"
+        "widget5 widget6"
+        
+      ;
+  }
+
+  .section_portafolio{
+    height: 650px;
+}
+
+  .contenedor_formulario{
+    display: block;
+    font-size: 2em;
+  }
+
+  /* -----(FIN) Estilos de la caja----- */
+}
+/* -----(FIN)Diseño adaptable movil----- */
