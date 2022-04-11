@@ -517,6 +517,10 @@
     border-radius: 5px;
 }
 
+  .widget5, .widget6{
+    display: none;
+  }
+
   /* .contenedor_portafolio{
     margin-top: 0px;
     margin-left: 4px;
@@ -540,8 +544,8 @@
         "widget2" 
         "widget3"
         "widget4"
-        /* "widget5"
-        "widget6" */
+        "widget5"
+        "widget6"
         
       ;
   }
