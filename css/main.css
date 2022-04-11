@@ -349,7 +349,7 @@
 
 /* -----(FIN)Section contacto----- */
 
-/* -----Diseño adaptable movil----- */
+/* -----Diseño adaptable movil-------------------------- */
 @media (max-width: 432px) {
 
   .btn-wsp{
@@ -458,12 +458,12 @@
     margin-top: 20px;
   }
   .caja #portafolio {
-    font-size: 5.3em;
+    font-size: 4.3em;
   }
 
   .caja #web {
-    font-size: 5.3em;
-    margin-left: 200px;
+    font-size: 4em;
+    margin-left: 175px;
   }
 
   .caja #by {
@@ -473,21 +473,34 @@
   }
 
   .section_portafolio > p{
-    font-size: 3em;
+    font-size: 2.8em;
     letter-spacing: .2em;
     margin-bottom: 10px;
 }
   /* -----Grid----- */
 
   .contenedor_portafolio img{
-    width: 174px;
+    width: 139px;
     height: 100px;
 }
 
   #caja_widget{
-    width: 180px;
+    width: 145px;
     height: 180px;
   }
+
+  #botom_widget{
+    width: 120px;
+    display: flex;
+    margin: auto;
+    margin-top: 10%;
+  }
+
+  .section_contacto > p{
+    font-size: 3em;
+    letter-spacing: .2em;
+    margin-bottom: 10px;
+}
 
   .contenedor_portafolio p{
     display: flex;
