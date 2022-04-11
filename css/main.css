@@ -393,7 +393,7 @@
   background-color: #000000;
     box-shadow: 1px 0px 5px 1px #015eea;
     width: 200px;
-    height: 250px;
+    height: 270px;
     position: absolute;
     top: 60px;
     left: 0;
@@ -458,7 +458,7 @@
     margin-top: 20px;
   }
   .caja #portafolio {
-    font-size: 4.3em;
+    font-size: 4.4em;
   }
 
   .caja #web {
@@ -480,12 +480,12 @@
   /* -----Grid----- */
 
   .contenedor_portafolio img{
-    width: 139px;
+    width: 159px;
     height: 100px;
 }
 
   #caja_widget{
-    width: 145px;
+    width: 165px;
     height: 180px;
   }
 
