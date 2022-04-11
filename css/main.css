@@ -148,7 +148,7 @@
 
 .caja #portafolio {
   font-size: 9em;
-  color: rgb(51, 255, 0);
+  color: rgb(255, 255, 255);
 }
 
 .caja #web {
@@ -486,7 +486,7 @@
 }
 
   #caja_widget{
-    width: 95%;
+    width: 100%;
     height: 180px;
   }
 
@@ -517,9 +517,9 @@
     border-radius: 5px;
 }
 
-  .contenedor_portafolio{
+  /* .contenedor_portafolio{
     margin-top: 0px;
-    margin-left: 0px;
+    margin-left: 4px;
     margin-right: 0px;
       display: grid;
       grid-template:
@@ -528,10 +528,26 @@
         "widget5 widget6"
         
       ;
+  } */
+
+  .contenedor_portafolio{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+      display: grid;
+      grid-template:
+        "widget1 "
+        "widget2" 
+        "widget3"
+        "widget4"
+        "widget5"
+        "widget6"
+        
+      ;
   }
 
   .section_portafolio{
-    height: 650px;
+    height: auto;
 }
 
   .contenedor_formulario{
