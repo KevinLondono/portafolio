@@ -502,6 +502,10 @@
     margin-bottom: 10px;
 }
 
+  .redes{
+    width: 100%;
+  }
+
   .contenedor_portafolio p{
     display: flex;
     justify-content: center; 
