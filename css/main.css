@@ -148,7 +148,7 @@
 
 .caja #portafolio {
   font-size: 9em;
-  color: red;
+  color: rgb(51, 255, 0);
 }
 
 .caja #web {
@@ -464,7 +464,7 @@
 
   .caja #web {
     font-size: 4em;
-    margin-left: 175px;
+    margin-left: 56%;
   }
 
   .caja #by {
@@ -481,17 +481,17 @@
   /* -----Grid----- */
 
   .contenedor_portafolio img{
-    width: 159px;
+    width: 100%;
     height: 100px;
 }
 
   #caja_widget{
-    width: 165px;
+    width: 95%;
     height: 180px;
   }
 
   #botom_widget{
-    width: 120px;
+    width: 80%;
     display: flex;
     margin: auto;
     margin-top: 10%;
